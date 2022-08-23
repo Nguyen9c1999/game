@@ -15,7 +15,7 @@ var score = 0;
 var khoangCachhaiOng=140;
 var khoangCachDenongDuoi;
 var bird={
-    x:hinhNenChinh.width/4,
+    x:hinhNenChinh.width/5,
     y: hinhNenChinh.height/2
 }
 var ong = []
@@ -27,7 +27,7 @@ ong[0]={
 
 function run(){
     context.drawImage(hinhNenChinh,0,0);
-    context.drawImage(birding,bird.x,bird.y,50,50);
+    context.drawImage(birding,bird.x,bird.y);
     
     for(let i = 0;i<ong.length;i++){
         khoangCachDenongDuoi=ongTren.height + khoangCachhaiOng;
