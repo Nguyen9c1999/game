@@ -34,7 +34,7 @@ function run(){
         context.drawImage(ongTren,ong[i].x,ong[i].y);
 
         context.drawImage(ongDuoi,ong[i].x,ong[i].y+khoangCachDenongDuoi)
-        ong[i].x -=5; //de ong di chuyen
+        ong[i].x -=3; //de ong di chuyen
 
         if(ong[i].x==canvar.width/3 ){
             ong.push({
@@ -60,7 +60,7 @@ function run(){
     }
     scoreshow.innerHTML="score: " +score
     //cho bird roi xuong
-    bird.y+=3
+    bird.y+=2
     requestAnimationFrame(run)
 }
 run()
