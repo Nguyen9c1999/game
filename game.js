@@ -54,7 +54,7 @@ function run(){
             && (bird.y<=ong[i].y+ongTren.height||
             bird.y +birding.height>= ong[i].y+ khoangCachDenongDuoi)    
             ){
-                
+                alert("bạn phải rửa đít cho Xu")
                 return
             }             
     }
