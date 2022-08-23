@@ -6,7 +6,7 @@ var birding = new Image();
 var hinhNenChinh = new Image();
 var ongTren = new Image();
 var ongDuoi = new Image();
-birding.src = "img/bird.png"
+birding.src = "img/xu2.png"
 hinhNenChinh.src= "img/nenchinh.png"
 ongTren.src = "img/ongtren.png"
 ongDuoi.src="img/ongduoi.png"
@@ -27,7 +27,7 @@ ong[0]={
 
 function run(){
     context.drawImage(hinhNenChinh,0,0);
-    context.drawImage(birding,bird.x,bird.y);
+    context.drawImage(birding,bird.x,bird.y,50,50);
     
     for(let i = 0;i<ong.length;i++){
         khoangCachDenongDuoi=ongTren.height + khoangCachhaiOng;
