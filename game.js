@@ -60,10 +60,10 @@ function run(){
     }
     scoreshow.innerHTML="score: " +score
     //cho bird roi xuong
-    bird.y+=0.5
+    bird.y+=3
     requestAnimationFrame(run)
 }
 run()
 document.addEventListener("click",function(){
-    bird.y-=20
+    bird.y-=60
 })
