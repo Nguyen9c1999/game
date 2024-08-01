@@ -6,7 +6,7 @@ var birding = new Image();
 var hinhNenChinh = new Image();
 var ongTren = new Image();
 var ongDuoi = new Image();
-birding.src = "img/xu2.png"
+birding.src = "img/TrongAnh.png"
 hinhNenChinh.src= "img/nenchinh.png"
 ongTren.src = "img/ongtren.png"
 ongDuoi.src="img/ongduoi.png"
@@ -54,7 +54,7 @@ function run(){
             && (bird.y<=ong[i].y+ongTren.height||
             bird.y +birding.height>= ong[i].y+ khoangCachDenongDuoi)    
             ){
-                document.getElementById("xu").innerHTML="Bạn phải rửa đít cho xu"
+                document.getElementById("xu").innerHTML="Bạn phải giỏi toán như a Trọng Anh"
                 return
             }             
     }
